@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--    app:cardElevation="5dp"-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/m_image"
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:padding="5dp"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Name"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/m_image" />
+
+                <TextView
+                    android:id="@+id/tv_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Location:"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_name" />
+
+                <TextView
+                    android:id="@+id/tv_rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="3dp"
+                    android:text="Rate"
+                    android:textColor="#C3202E"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@+id/lbl_totalPayment"
+                    app:layout_constraintTop_toBottomOf="@+id/m_image" />
+
+                <TextView
+                    android:id="@+id/lbl_totalPayment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:text="/ night"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/m_image" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_location">
+
+                    <Button
+
+                        android:id="@+id/btnEdit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#18a3fe"
+                        android:drawableLeft="@drawable/ic_edit"
+                        android:drawableTint="#FFFFFF"
+                        android:padding="5dp"
+                        android:text="Edit" />
+
+                    <Button
+                        android:id="@+id/btnDelete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#18a3fe"
+                        android:drawableLeft="@drawable/ic_delete"
+                        android:drawableTint="#FFFFFF"
+                        android:padding="5dp"
+                        android:text="Delete" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="#F1E023"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_guest"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Guest"
+        tools:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_dateIn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Date In"
+        tools:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_dateOut"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Date Out"
+        tools:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_amenities"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Amenities"
+        tools:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_spaces"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Spaces"
+        tools:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Description"
+        tools:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_primaryKey"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Primary Key"
+        tools:visibility="gone" />
+
+
+</androidx.cardview.widget.CardView>

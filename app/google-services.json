@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "793579181158",
+    "project_id": "ebtsproject",
+    "storage_bucket": "ebtsproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793579181158:android:22e160581e4b08f87dc9a7",
+        "android_client_info": {
+          "package_name": "com.example.ebtsproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793579181158-2shik5tgb8i7sv0t5t2eks7uusihbn7j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS4FqSNGoMHrgRjVOduKJsgfvOXCe8-kQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793579181158-2shik5tgb8i7sv0t5t2eks7uusihbn7j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

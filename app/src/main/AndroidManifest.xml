@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ebtsproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ebts_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EBTSProject">
+        <activity
+            android:name=".Admin_Listing_Edit"
+            android:exported="false" />
+        <activity
+            android:name=".zCustomer_Intro"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Pending"
+            android:exported="true" />
+        <activity
+            android:name=".Admin_Confirmed"
+            android:exported="true" />
+        <activity
+            android:name=".Customer_CheckAvailability_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Admin_Listing_2"
+            android:exported="true" />
+        <activity
+            android:name=".Admin_Listing_1"
+            android:exported="true" />
+        <activity
+            android:name=".zAdmin_Drawer"
+            android:exported="true" />
+        <activity
+            android:name=".Customer_Register"
+            android:exported="true" />
+        <activity
+            android:name=".zCustomer_Drawer"
+            android:exported="true" />
+        <activity
+            android:name=".AALogin"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

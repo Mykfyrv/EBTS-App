@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/drawable/box_about_us.xml" value="0.266" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/drawable/contact_box_border_aboutus.xml" value="0.266" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/drawable/ic_cancel.xml" value="0.382051282051282" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/drawable/ic_confirm.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/drawable/ic_home.xml" value="0.3611111111111111" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/drawable/img_border.xml" value="0.1" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/drawable/linear_bg.xml" value="0.1" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/drawable/onboarding_indicator_active.xml" value="0.273" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/drawable/onboarding_indicator_inactive.xml" value="0.273" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/drawable/rounded_edittext.xml" value="0.2205" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/drawable/underline_edittext.xml" value="0.2205" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/drawable/wave.xml" value="0.2205" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/aalogin.xml" value="0.33" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/aalogintest.xml" value="0.36367753623188404" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/activity_aalogin.xml" value="0.33" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/activity_customer_register.xml" value="0.371875" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/activity_main.xml" value="0.371875" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/admin_aboutus_fragment.xml" value="0.33061594202898553" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/admin_aboutusfragment.xml" value="0.371875" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/admin_booking_dashboard.xml" value="0.18085106382978725" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/admin_booking_detail_fragment.xml" value="0.18085106382978725" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/admin_booking_fragment.xml" value="0.23076923076923078" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/admin_bookingfragment.xml" value="0.36141304347826086" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/admin_change_password.xml" value="0.33" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/admin_confirm_booking.xml" value="0.33" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/admin_confirmed.xml" value="0.1" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/admin_confirmed_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/admin_contactfragment.xml" value="0.371875" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/admin_edit_list.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/admin_home_fragment.xml" value="0.22" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/admin_homefragment.xml" value="0.25766871165644173" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/admin_listing3.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/admin_listing_1.xml" value="0.22" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/admin_listing_2.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/admin_listing_edit.xml" value="0.2109704641350211" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/admin_pending.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/admin_pending_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/admin_upload.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/customer_aboutusfragment.xml" value="0.5" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/customer_aboutust_fragment.xml" value="0.33" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/customer_aboutustfragment.xml" value="0.35643115942028986" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/customer_booking_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/customer_change_password.xml" value="0.245018115942029" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/customer_checkavailability_activity.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/customer_contactfragment.xml" value="0.2817028985507246" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/customer_home_fragment.xml" value="0.33605072463768115" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/customer_homefragment.xml" value="0.33" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/customer_notification_fragment.xml" value="0.17685185185185184" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/customer_notificationfragment.xml" value="0.371875" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/customer_register.xml" value="0.33" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/gui_register.xml" value="0.371875" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/itemlist_admin_booking.xml" value="0.33" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/itemlist_admin_confirm.xml" value="0.5" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/itemlist_admin_dashboard.xml" value="0.18" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/itemlist_admin_home.xml" value="0.33" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/itemlist_admin_pending.xml" value="0.33" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/itemlist_customer_booking.xml" value="0.22" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/itemlist_customer_home.xml" value="0.33" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/itemlist_dashboard.xml" value="0.5" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/itemlist_intro.xml" value="0.16" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/itemlist_intro_test.xml" value="0.2" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/itemlist_intro_test2.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/layout_bg.xml" value="0.20652173913043478" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/newregister.xml" value="0.23595505617977527" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/newregister2.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/test.xml" value="0.1" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/testlogin.xml" value="0.25280898876404495" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/zadmin_drawer.xml" value="0.18" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/zcustomer_drawer.xml" value="0.33" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/zcustomer_intro.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/zcustomer_intro_test.xml" value="0.2" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/zcustomer_walkthrough.xml" value="0.371875" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/znav_header.xml" value="0.33" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/layout/zznav_header.xml" value="0.33" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/menu/drawer_menu_admin.xml" value="0.371875" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/menu/drawer_menu_customer.xml" value="0.371875" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/EBTSProject/app/src/main/res/menu/drawer_try.xml" value="0.371875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

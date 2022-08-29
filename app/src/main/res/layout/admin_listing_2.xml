@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Admin_Listing_2"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-20dp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/v_topview"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#18a3fe"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvLP2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Listing Process"
+                    android:textColor="#FFFFFF"
+                    android:textSize="34sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvS2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Step 2: "
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvLP2" />
+
+                <View
+                    android:id="@+id/v_wave1"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@drawable/wave"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/v_topview" />
+
+                <TextView
+                    android:id="@+id/lbl_amenities"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Amenities:"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/v_wave1"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <CheckBox
+                    android:id="@+id/cbTV"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="20dp"
+                    android:buttonTint="#18a3fe"
+                    android:checked="false"
+                    android:text="TV"
+                    android:textColor="#000000"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/v_wave1" />
+
+                <CheckBox
+                    android:id="@+id/cbAir"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="31dp"
+                    android:backgroundTint="#F1E023"
+                    android:buttonTint="#18A3FE"
+                    android:text="Air Condition"
+                    android:textColor="#000000"
+                    app:layout_constraintEnd_toStartOf="@+id/cbDesk"
+                    app:layout_constraintStart_toEndOf="@+id/cbTV"
+                    app:layout_constraintTop_toBottomOf="@+id/v_wave1" />
+
+                <CheckBox
+                    android:id="@+id/cbDesk"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="25dp"
+                    android:backgroundTint="#F1E023"
+                    android:buttonTint="#18A3FE"
+                    android:text="Desk"
+                    android:textColor="#000000"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/v_wave1" />
+
+                <CheckBox
+                    android:id="@+id/cbWiFi"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="15dp"
+                    android:backgroundTint="#F1E023"
+                    android:buttonTint="#18A3FE"
+                    android:text="WiFi"
+                    android:textColor="#000000"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cbTV" />
+
+                <CheckBox
+                    android:id="@+id/cbCloset"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="31dp"
+                    android:backgroundTint="#F1E023"
+                    android:buttonTint="#18A3FE"
+                    android:text="Closet"
+                    android:textColor="#000000"
+                    app:layout_constraintEnd_toStartOf="@+id/cbWash"
+                    app:layout_constraintStart_toEndOf="@+id/cbWiFi"
+                    app:layout_constraintTop_toBottomOf="@+id/cbAir" />
+
+                <CheckBox
+                    android:id="@+id/cbWash"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="25dp"
+                    android:backgroundTint="#F1E023"
+                    android:buttonTint="#18A3FE"
+                    android:text="Washing Machine"
+                    android:textColor="#000000"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cbDesk" />
+
+                <CheckBox
+                    android:id="@+id/cbNetflix"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="15dp"
+                    android:backgroundTint="#F1E023"
+                    android:buttonTint="#18A3FE"
+                    android:text="Netflix"
+                    android:textColor="#000000"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cbWiFi" />
+
+                <CheckBox
+                    android:id="@+id/cbRef"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="28dp"
+                    android:backgroundTint="#F1E023"
+                    android:buttonTint="#18A3FE"
+                    android:text="Refrigirator"
+                    android:textColor="#000000"
+                    app:layout_constraintEnd_toStartOf="@+id/cbUtensils"
+                    app:layout_constraintStart_toEndOf="@+id/cbNetflix"
+                    app:layout_constraintTop_toBottomOf="@+id/cbCloset" />
+
+                <CheckBox
+                    android:id="@+id/cbUtensils"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="25dp"
+                    android:backgroundTint="#F1E023"
+                    android:buttonTint="#18A3FE"
+                    android:text="Utensils"
+                    android:textColor="#000000"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cbWash" />
+
+                <TextView
+                    android:id="@+id/lbl_spaces"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Spaces:"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cbNetflix" />
+
+                <CheckBox
+                    android:id="@+id/cbKit"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="#F1E023"
+                    android:buttonTint="#18A3FE"
+                    android:text="Kitchen"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/lbl_spaces" />
+
+                <CheckBox
+                    android:id="@+id/cbLWash"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="31dp"
+                    android:backgroundTint="#F1E023"
+                    android:buttonTint="#18A3FE"
+                    android:text="Washer"
+                    app:layout_constraintEnd_toStartOf="@+id/cbLDry"
+                    app:layout_constraintStart_toEndOf="@+id/cbKit"
+                    app:layout_constraintTop_toBottomOf="@+id/lbl_spaces" />
+
+                <CheckBox
+                    android:id="@+id/cbLDry"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="25dp"
+                    android:buttonTint="#18A3FE"
+                    android:text="Dryer"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/lbl_spaces" />
+
+                <CheckBox
+                    android:id="@+id/cbPark"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="15dp"
+                    android:backgroundTint="#F1E023"
+                    android:buttonTint="#18A3FE"
+                    android:text="Parking"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cbKit" />
+
+                <CheckBox
+                    android:id="@+id/cbPool"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="31dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="30dp"
+                    android:backgroundTint="#F1E023"
+                    android:buttonTint="#18A3FE"
+                    android:text="Pool"
+                    app:layout_constraintEnd_toStartOf="@+id/cbGym"
+                    app:layout_constraintStart_toEndOf="@+id/cbPark"
+                    app:layout_constraintTop_toBottomOf="@+id/cbLWash" />
+
+                <CheckBox
+                    android:id="@+id/cbGym"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="25dp"
+                    android:backgroundTint="#F1E023"
+                    android:buttonTint="#18A3FE"
+                    android:text="Gym"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cbLDry" />
+
+                <TextView
+                    android:id="@+id/lbl_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Description / Other Details:"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cbPark" />
+
+                <EditText
+                    android:id="@+id/et_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="25dp"
+                    android:backgroundTint="#F1E023"
+                    android:drawableLeft="@drawable/ic_aboutus"
+                    android:drawablePadding="5dp"
+                    android:drawableTint="#F1E023"
+                    android:ems="10"
+                    android:gravity="start|top"
+                    android:hint="Optional"
+                    android:inputType="textMultiLine"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/lbl_description" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/et_description" />
+
+                <Button
+                    android:id="@+id/btnComplete"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="#18a3fe"
+                    android:drawableRight="@drawable/ic_next"
+                    android:drawableTint="#FFFFFF"
+                    android:text="Complete"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/resultAme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amenities"
+        android:visibility="gone"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="624dp" />
+
+    <TextView
+        android:id="@+id/resultSpa"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:text="Spaces"
+        android:visibility="gone"
+        tools:layout_editor_absoluteX="328dp"
+        tools:layout_editor_absoluteY="624dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
