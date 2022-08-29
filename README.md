@@ -4,6 +4,14 @@ An android application project developed for the EBTS Boardinghouse Transient St
 
 #### Login Credentials
 
-user: Admin
+##### Admin
 
-password: Password
+user: admin
+
+password: password
+
+##### End-User
+
+user: enduser
+
+password: password
