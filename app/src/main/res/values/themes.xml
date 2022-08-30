@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.EBTSProject" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Theme.EBTSProject" parent="Theme.MaterialComponents.Light.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">#18a3fe</item>
         <item name="colorPrimaryVariant">#18a3fe</item>
